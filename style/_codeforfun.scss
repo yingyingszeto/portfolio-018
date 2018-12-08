@@ -1,0 +1,24 @@
+#wrapper_codeforfun {
+    section { border: none; }
+    #block_1 { background-image: url('image/truecolor.png'); }
+    #block_2 { background-image: url('image/luckyNum.png'); }
+    .block {
+        width: 100%;
+        height: 150px;
+    }
+    .mask {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        transition: linear 0.5s;
+    }
+    .mask {
+        opacity: 0;
+    }
+    .mask:hover {
+        opacity: 0.75;
+    }
+}
