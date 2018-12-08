@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Condensed:400,700|Roboto+Mono:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i");
+* a {
+  color: inherit;
+  text-decoration: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "PT Serif", serif;
+  font-weight: 600; }
+
+h1, h2 {
+  letter-spacing: 2px; }
+
+h3, h4, h5, h6 {
+  letter-spacing: 0px; }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: auto; }
+
+section {
+  margin: 20px 0;
+  border-top: 1px dotted LightSteelBlue; }
+
+.no_border {
+  border: none; }
+
+wrapper {
+  width: 700px;
+  height: auto; }
+
+footer {
+  display: grid;
+  margin: 40px 0; }
+  footer .btn_home, footer .btn_next {
+    grid-row: 1; }
+  footer .btn_home {
+    justify-self: left; }
+  footer .btn_next {
+    justify-self: right; }
+
+.links {
+  color: CornflowerBlue;
+  font-style: italic;
+  border-bottom: 1px dotted CornflowerBlue; }
+
+.little_guide {
+  color: LightSteelBlue;
+  margin: 20px 0 10px 0px; }
+
+.highlight {
+  background: LightSteelBlue;
+  width: max-content;
+  padding: 5px 5px;
+  color: white; }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  color: #06384e;
+  padding: 120px 0; }
+
+.test {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 10px;
+  background-color: red; }
+
+#wrapper_home {
+  text-align: center; }
+  #wrapper_home header {
+    display: grid; }
+  #wrapper_home section {
+    border: none;
+    margin: 50px 0; }
+  #wrapper_home header > h2 {
+    margin: 0; }
+  #wrapper_home header > p {
+    color: #06384e; }
+  #wrapper_home #social {
+    justify-self: center;
+    display: grid;
+    grid-template: 31px/repeat(5, 100px);
+    color: CornflowerBlue !important;
+    margin-top: 5px; }
+  #wrapper_home #social > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid CornflowerBlue;
+    border-right: transparent;
+    font-size: 0.75em; }
+  #wrapper_home #social > div:hover {
+    color: #06384e; }
+  #wrapper_home #social_end {
+    border-right: 1px solid CornflowerBlue !important; }
+  #wrapper_home #box_wrapper {
+    display: grid;
+    grid-template: repeat(4, 100px)/100%;
+    grid-gap: 2px; }
+  #wrapper_home .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+    font-weight: 400; }
+  #wrapper_home #box_1 {
+    background-color: Ivory; }
+  #wrapper_home #box_2 {
+    background-color: Snow; }
+  #wrapper_home #box_3 {
+    background-color: Azure; }
+  #wrapper_home #box_4 {
+    background-color: AliceBlue; }
+  #wrapper_home #interests {
+    padding: 48px 0; }
+
+#wrapper_color .dark_para {
+  color: #06384e; }
+#wrapper_color h2 {
+  margin-bottom: 0px; }
+#wrapper_color #color_demo {
+  justify-self: center;
+  width: 80%;
+  margin: 50px; }
+#wrapper_color h3 {
+  margin: 60px 0 0 0; }
+#wrapper_color h3:nth-of-type(2) {
+  margin: 30px 0 0 0; }
+#wrapper_color p {
+  line-height: 26px;
+  color: #06384e; }
+#wrapper_color p:nth-child(4) {
+  margin-bottom: 30px; }
+#wrapper_color img {
+  width: auto;
+  margin: 20px 0; }
+#wrapper_color .color_btn_wrapper {
+  display: flex;
+  flex-direction: row; }
+  #wrapper_color .color_btn_wrapper div {
+    margin-right: 15px; }
+#wrapper_color .color_btn {
+  font: bold 0.6em "Roboto Condensed", sans-serif;
+  background-color: CornflowerBlue;
+  width: 80px;
+  height: 0px;
+  padding: 20px 56px 60px 8px;
+  border-radius: 5px;
+  color: white;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  box-shadow: 5px 5px 0px #e0e0e0; }
+#wrapper_color #clipboard_btn {
+  cursor: crosshair; }
+#wrapper_color #clipboard_btn:hover {
+  box-shadow: none;
+  transform: translate(5px, 5px); }
+#wrapper_color .btn_style {
+  display: flex;
+  flex-direction: row;
+  margin: 30px 0; }
+  #wrapper_color .btn_style div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    color: white;
+    font: 0.6em 'Lato', sans-serif; }
+  #wrapper_color .btn_style div:first-child {
+    border-radius: 20px 0 0 20px; }
+  #wrapper_color .btn_style div:last-child {
+    border-radius: 0 20px 20px 0; }
+#wrapper_color #name_btn_wrapper div {
+  background-color: MediumPurple;
+  width: 80px; }
+#wrapper_color #name_btn_wrapper div:first-child {
+  background-color: #5b2eb7; }
+#wrapper_color #blindness_btn_wrapper div {
+  background-color: Plum;
+  width: 126px; }
+#wrapper_color #blindness_btn_wrapper div:first-child {
+  background-color: #c255c2; }
+#wrapper_color #blindness_color_wrapper div:nth-child(2) {
+  background-color: #7872d4; }
+#wrapper_color #blindness_color_wrapper div:nth-child(3) {
+  background-color: #7B79D9; }
+#wrapper_color #blindness_color_wrapper div:nth-child(4) {
+  background-color: #64C6C4; }
+#wrapper_color #blindness_color_wrapper div:nth-child(5) {
+  background-color: #929292; }
+
+#wrapper_work section {
+  padding: 35px 0 45px; }
+#wrapper_work #section_1 {
+  padding-top: 0; }
+#wrapper_work section:last-of-type {
+  margin-bottom: 0; }
+#wrapper_work .scrollbox {
+  overflow-y: scroll;
+  width: 100%;
+  height: 440px; }
+  #wrapper_work .scrollbox img {
+    width: 100%;
+    height: auto; }
+#wrapper_work p {
+  line-height: 30px;
+  color: #06384e;
+  margin-bottom: 0; }
+#wrapper_work .skill {
+  margin-top: 20px; }
+  #wrapper_work .skill small {
+    font-size: 12px;
+    color: #06384e;
+    border: 1px solid #06384e;
+    padding: 5px 10px;
+    margin-right: 3px; }
+#wrapper_work footer {
+  display: grid;
+  margin: 40px 0; }
+  #wrapper_work footer .btn_home {
+    justify-self: flex-start; }
+  #wrapper_work footer .btn_next {
+    justify-self: flex-end; }
+  #wrapper_work footer a {
+    display: flex; }
+
+.scrollbox::-webkit-scrollbar-track {
+  border: 1px solid LightSteelBlue; }
+
+.scrollbox::-webkit-scrollbar {
+  width: 6px;
+  background-color: white; }
+
+.scrollbox::-webkit-scrollbar-thumb {
+  background-color: LightSteelBlue; }
+
+#wrapper_appetite section {
+  padding: 30px 0px; }
+#wrapper_appetite video, #wrapper_appetite img {
+  width: 100%;
+  margin-bottom: 30px; }
+
+/*# sourceMappingURL=style.css.map */

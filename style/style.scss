@@ -1,0 +1,14 @@
+@import 'variables';
+@import 'setup';
+
+body {
+    font-family: $typeface_2;
+    font-size: 1em;
+    color: $text-color-1;
+    padding: 120px 0;
+}
+
+@import 'home';
+@import 'colors';
+@import 'work';
+@import 'appetite';
