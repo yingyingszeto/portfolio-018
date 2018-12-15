@@ -19,11 +19,17 @@
     header > p {
         color: $text-color-1;
     }
+
+    header > a {
+        width: fit-content;
+        margin-top: 24px;
+        justify-self: center;
+    }
       
     #social {
         justify-self: center;
         display: grid;
-        grid-template: 31px / repeat(5, 100px);
+        grid-template: 31px / repeat(5, 70px);
         color: $text-color-2 !important;
         margin-top: 5px;
     }
@@ -126,5 +132,14 @@
 
     #interests {
         padding: 48px 0;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    body {
+        padding: 60px 0;
+    }
+    #wrapper_home #interests {
+        padding: 20px 0;
     }
 }

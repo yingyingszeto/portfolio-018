@@ -1,4 +1,5 @@
 #wrapper_color {
+    display: grid;
     .dark_para {
         color: $text-color-1;
     }
@@ -6,9 +7,8 @@
         margin-bottom: 0px;
     }
     #color_demo {
-        justify-self: center;
         width: 80%;
-        margin: 50px;
+        justify-self: center;
     }
     h3 { margin: 60px 0 0 0; }
     h3:nth-of-type(2) { margin: 30px 0 0 0; }
@@ -26,6 +26,7 @@
     .color_btn_wrapper {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         div {
         margin-right: 15px;
         }
@@ -33,9 +34,9 @@
     .color_btn {
         font: bold 0.6em "Roboto Condensed", sans-serif;
         background-color: CornflowerBlue;
-        width: 80px;
+        width: 50px;
         height: 0px;
-        padding: 20px 56px 60px 8px;
+        padding: 20px 56px 50px 8px;
         border-radius: 5px;
         color: white;
         text-transform: capitalize;
@@ -86,6 +87,22 @@
         div:nth-child(3) { background-color: #7B79D9; }
         div:nth-child(4) { background-color: #64C6C4; }
         div:nth-child(5) { background-color: #929292; }
+    }
+    #color_demo_dark {
+        width: 70%;
+        justify-self: center;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #wrapper_color {
+        display: unset;
+    }
+    #color_demo_dark, #color_demo {
+        width: 100% !important;
+    }
+    #wrapper_color .color_btn {
+        margin-top: 15px;
     }
 }
 

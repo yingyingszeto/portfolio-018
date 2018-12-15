@@ -4,11 +4,14 @@
       text-decoration: none;
       cursor: pointer;
     }
+    margin: 0;
+    padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: $typeface_1;
-    font-weight: 600; 
+    font-weight: 600;
+    margin: 1em 0;
 }
 
 h1, h2 {
@@ -41,6 +44,16 @@ section {
 wrapper {
     width: 700px;
     height: auto;
+}
+
+p {
+    margin: 1em 0;
+}
+
+@media only screen and (max-width: 700px) {
+    wrapper {
+        width: 85%;
+    }
 }
 
 footer {
