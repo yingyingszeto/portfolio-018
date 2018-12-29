@@ -9,7 +9,7 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: $typeface_1;
+    font-family: $typeface_2;
     font-weight: 600;
     margin: 1em 0;
 }
@@ -42,13 +42,28 @@ section {
 }
 
 wrapper {
-    width: 700px;
+    width: 650px;
     height: auto;
 }
 
 p {
     margin: 1em 0;
+    line-height: 27px;
+    color: $text-color-1;
 }
+
+.skill {
+    margin-top: 10px;
+    small {
+      font-size: 12px;
+      color: $text-color-1;
+      border: 1px solid $text-color-1;
+      padding: 5px 10px;
+      margin-right: 3px;
+      margin-top: 10px;
+      display: inline-block;
+    }
+  }
 
 @media only screen and (max-width: 700px) {
     wrapper {
@@ -72,6 +87,10 @@ footer {
     border-bottom: 1px dotted $text-color-2;
 }
 
+.links:hover {
+    background: #ededed;
+}
+
 .little_guide {
     color: $light-color;
     margin: 20px 0 10px 0px;
@@ -79,7 +98,7 @@ footer {
 .highlight {
     background:$light-color;
     width: max-content;
-    padding: 5px 5px;
+    padding: 5px 10px;
     color: white;
 }
 

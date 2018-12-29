@@ -72,28 +72,17 @@
     }
       
     #box_1 {
-        /*background-color: Ivory;*/
         background:white;
         background-image: linear-gradient(90deg, rgba(176, 196, 222, 0.5) 37%, transparent 0),
                           linear-gradient(rgba(176, 196, 222, 0.5) 37%, transparent 0);
         background-size: 25px 25px;
     }
     #box_2 {
-        /*background-color: Snow;*/
-
-        /*background-color: $light-color;
-        background-image: linear-gradient(white 1px, transparent 0px),
-						  linear-gradient(90deg, white 1px, transparent 1px),
-						  repeating-linear-gradient(45deg, white, white ,transparent 1px, transparent 25px),
-						  repeating-linear-gradient(-45deg, white, white, transparent 1px, transparent 25px);
-        background-size:35px 35px;
-        background-position: -0.5px -1px;*/
-
         background:
         radial-gradient(rgba(176, 196, 222, 0.5) 4px, transparent 3px),
         radial-gradient(rgba(176, 196, 222, 0.5) 4px, transparent 3px), #fff;
         background-position: 0 0, 20px 20px;
-        background-size: 40px 40px; 
+        background-size: 43px 43px; 
     }
     #box_3 { 
         background-color: rgba(176, 196, 222, 0.5);
@@ -101,22 +90,6 @@
     }
     #box_4 {
         background-color: rgba(176, 196, 222, 0.5);
-
-        /*background-color: $light-color;
-        background-image: 
-        linear-gradient(white 1px, transparent 1px),
-        linear-gradient(90deg, white 1px, transparent 1px);
-        background-size: 20px 20px, 20px 20px;
-        background-position:-1px -1px, -1px -1px;*/
-
-        /*background:
-        radial-gradient(circle, transparent 20%, #fff 20%, #fff 80%, transparent 80%, transparent),
-        radial-gradient(circle, transparent 20%, #fff 20%, #fff 80%, transparent 80%, transparent) 50px 50px,
-        linear-gradient(rgba(176, 196, 222, 0.5) 8px, transparent 8px) 0 -4px,
-        linear-gradient(90deg, rgba(176, 196, 222, 0.5) 8px, transparent 8px) -4px 0;
-        background-color: transparent;
-        background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;*/
-
         background: linear-gradient(-45deg,
         rgba(176, 196, 222, 0.5) 25% 25%,
         #ffffff 25.1%,
@@ -125,8 +98,7 @@
         rgba(176, 196, 222, 0.5) 37% 75%,
         #ffffff 75.1%,
         #ffffff 0);
-        background-size: 40px 40px;
-        
+        background-size: 40px 40px; 
     }
 
     #interests {
